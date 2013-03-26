@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B907C98C167436D90080BA42 /* timerBox.m in Sources */ = {isa = PBXBuildFile; fileRef = B907C98B167436D90080BA42 /* timerBox.m */; };
+		C40265BF16389CAF006C44AA /* toneGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = C40265BE16389CAF006C44AA /* toneGenerator.m */; };
+		C40265C216389CEA006C44AA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C40265C116389CEA006C44AA /* AudioToolbox.framework */; };
+		C41FD2A516433EF40071A59C /* interval.m in Sources */ = {isa = PBXBuildFile; fileRef = C41FD2A416433EF40071A59C /* interval.m */; };
+		C41FD2A916433F470071A59C /* intervalCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = C41FD2A816433F470071A59C /* intervalCalculator.m */; };
+		C4E4FB441634A55A001B540E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E4FB431634A55A001B540E /* UIKit.framework */; };
+		C4E4FB461634A55A001B540E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E4FB451634A55A001B540E /* Foundation.framework */; };
+		C4E4FB481634A55A001B540E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E4FB471634A55A001B540E /* CoreGraphics.framework */; };
+		C4E4FB4E1634A55A001B540E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4E4FB4C1634A55A001B540E /* InfoPlist.strings */; };
+		C4E4FB501634A55A001B540E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E4FB4F1634A55A001B540E /* main.m */; };
+		C4E4FB541634A55A001B540E /* GLWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E4FB531634A55A001B540E /* GLWAppDelegate.m */; };
+		C4E4FB561634A55A001B540E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C4E4FB551634A55A001B540E /* Default.png */; };
+		C4E4FB581634A55A001B540E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4E4FB571634A55A001B540E /* Default@2x.png */; };
+		C4E4FB5A1634A55A001B540E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4E4FB591634A55A001B540E /* Default-568h@2x.png */; };
+		C4E4FB5D1634A55A001B540E /* GLWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E4FB5C1634A55A001B540E /* GLWViewController.m */; };
+		C4E4FB601634A55A001B540E /* GLWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4E4FB5E1634A55A001B540E /* GLWViewController.xib */; };
+		C4E4FB6B1634A584001B540E /* evenCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E4FB6A1634A584001B540E /* evenCalculator.m */; };
+		C4E4FB721634AD11001B540E /* chord.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E4FB711634AD11001B540E /* chord.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B907C9891674337C0080BA42 /* GLWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLWViewController.h; sourceTree = "<group>"; };
+		B907C98A167436D80080BA42 /* timerBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = timerBox.h; path = "../../../../tlacael/Downloads/homework8 2/circleOfFifths/timerBox.h"; sourceTree = "<group>"; };
+		B907C98B167436D90080BA42 /* timerBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = timerBox.m; path = "../../../../tlacael/Downloads/homework8 2/circleOfFifths/timerBox.m"; sourceTree = "<group>"; };
+		C40265BD16389CAF006C44AA /* toneGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = toneGenerator.h; sourceTree = "<group>"; };
+		C40265BE16389CAF006C44AA /* toneGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = toneGenerator.m; sourceTree = "<group>"; };
+		C40265C116389CEA006C44AA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C41FD2A316433EF40071A59C /* interval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interval.h; sourceTree = "<group>"; };
+		C41FD2A416433EF40071A59C /* interval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = interval.m; sourceTree = "<group>"; };
+		C41FD2A716433F470071A59C /* intervalCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = intervalCalculator.h; sourceTree = "<group>"; };
+		C41FD2A816433F470071A59C /* intervalCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = intervalCalculator.m; sourceTree = "<group>"; };
+		C439020E16374DDB00FC3F01 /* scaleCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = scaleCalculator.h; sourceTree = "<group>"; };
+		C4E4FB3F1634A55A001B540E /* Modulatron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Modulatron.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E4FB431634A55A001B540E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C4E4FB451634A55A001B540E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C4E4FB471634A55A001B540E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C4E4FB4B1634A55A001B540E /* Modulatron-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Modulatron-Info.plist"; sourceTree = "<group>"; };
+		C4E4FB4D1634A55A001B540E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C4E4FB4F1634A55A001B540E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4E4FB511634A55A001B540E /* Modulatron-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Modulatron-Prefix.pch"; sourceTree = "<group>"; };
+		C4E4FB521634A55A001B540E /* GLWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLWAppDelegate.h; sourceTree = "<group>"; };
+		C4E4FB531634A55A001B540E /* GLWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLWAppDelegate.m; sourceTree = "<group>"; };
+		C4E4FB551634A55A001B540E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C4E4FB571634A55A001B540E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C4E4FB591634A55A001B540E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C4E4FB5C1634A55A001B540E /* GLWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLWViewController.m; sourceTree = "<group>"; };
+		C4E4FB5F1634A55A001B540E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GLWViewController.xib; sourceTree = "<group>"; };
+		C4E4FB691634A584001B540E /* evenCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = evenCalculator.h; sourceTree = "<group>"; };
+		C4E4FB6A1634A584001B540E /* evenCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = evenCalculator.m; sourceTree = "<group>"; };
+		C4E4FB701634AD11001B540E /* chord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chord.h; sourceTree = "<group>"; };
+		C4E4FB711634AD11001B540E /* chord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chord.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4E4FB3C1634A55A001B540E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40265C216389CEA006C44AA /* AudioToolbox.framework in Frameworks */,
+				C4E4FB441634A55A001B540E /* UIKit.framework in Frameworks */,
+				C4E4FB461634A55A001B540E /* Foundation.framework in Frameworks */,
+				C4E4FB481634A55A001B540E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4E4FB341634A55A001B540E = {
+			isa = PBXGroup;
+			children = (
+				C40265C116389CEA006C44AA /* AudioToolbox.framework */,
+				C4E4FB491634A55A001B540E /* circleOfFifths */,
+				C4E4FB421634A55A001B540E /* Frameworks */,
+				C4E4FB401634A55A001B540E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4E4FB401634A55A001B540E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4E4FB3F1634A55A001B540E /* Modulatron.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4E4FB421634A55A001B540E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4E4FB431634A55A001B540E /* UIKit.framework */,
+				C4E4FB451634A55A001B540E /* Foundation.framework */,
+				C4E4FB471634A55A001B540E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4E4FB491634A55A001B540E /* circleOfFifths */ = {
+			isa = PBXGroup;
+			children = (
+				C4E4FB521634A55A001B540E /* GLWAppDelegate.h */,
+				C4E4FB531634A55A001B540E /* GLWAppDelegate.m */,
+				C4E4FB5C1634A55A001B540E /* GLWViewController.m */,
+				B907C9891674337C0080BA42 /* GLWViewController.h */,
+				C4E4FB5E1634A55A001B540E /* GLWViewController.xib */,
+				C4E4FB4A1634A55A001B540E /* Supporting Files */,
+				C439020E16374DDB00FC3F01 /* scaleCalculator.h */,
+				C40265BD16389CAF006C44AA /* toneGenerator.h */,
+				C40265BE16389CAF006C44AA /* toneGenerator.m */,
+				B907C98A167436D80080BA42 /* timerBox.h */,
+				B907C98B167436D90080BA42 /* timerBox.m */,
+				C41FD2A716433F470071A59C /* intervalCalculator.h */,
+				C41FD2A816433F470071A59C /* intervalCalculator.m */,
+				C41FD2A316433EF40071A59C /* interval.h */,
+				C41FD2A416433EF40071A59C /* interval.m */,
+				C4E4FB701634AD11001B540E /* chord.h */,
+				C4E4FB711634AD11001B540E /* chord.m */,
+				C4E4FB691634A584001B540E /* evenCalculator.h */,
+				C4E4FB6A1634A584001B540E /* evenCalculator.m */,
+			);
+			path = circleOfFifths;
+			sourceTree = "<group>";
+		};
+		C4E4FB4A1634A55A001B540E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4E4FB4B1634A55A001B540E /* Modulatron-Info.plist */,
+				C4E4FB4C1634A55A001B540E /* InfoPlist.strings */,
+				C4E4FB4F1634A55A001B540E /* main.m */,
+				C4E4FB511634A55A001B540E /* Modulatron-Prefix.pch */,
+				C4E4FB551634A55A001B540E /* Default.png */,
+				C4E4FB571634A55A001B540E /* Default@2x.png */,
+				C4E4FB591634A55A001B540E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4E4FB3E1634A55A001B540E /* Modulatron */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E4FB631634A55A001B540E /* Build configuration list for PBXNativeTarget "Modulatron" */;
+			buildPhases = (
+				C4E4FB3B1634A55A001B540E /* Sources */,
+				C4E4FB3C1634A55A001B540E /* Frameworks */,
+				C4E4FB3D1634A55A001B540E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Modulatron;
+			productName = circleOfFifths;
+			productReference = C4E4FB3F1634A55A001B540E /* Modulatron.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4E4FB361634A55A001B540E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GLW;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = GLW;
+			};
+			buildConfigurationList = C4E4FB391634A55A001B540E /* Build configuration list for PBXProject "Modulatron" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C4E4FB341634A55A001B540E;
+			productRefGroup = C4E4FB401634A55A001B540E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4E4FB3E1634A55A001B540E /* Modulatron */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4E4FB3D1634A55A001B540E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E4FB4E1634A55A001B540E /* InfoPlist.strings in Resources */,
+				C4E4FB561634A55A001B540E /* Default.png in Resources */,
+				C4E4FB581634A55A001B540E /* Default@2x.png in Resources */,
+				C4E4FB5A1634A55A001B540E /* Default-568h@2x.png in Resources */,
+				C4E4FB601634A55A001B540E /* GLWViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4E4FB3B1634A55A001B540E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E4FB501634A55A001B540E /* main.m in Sources */,
+				C4E4FB541634A55A001B540E /* GLWAppDelegate.m in Sources */,
+				C4E4FB5D1634A55A001B540E /* GLWViewController.m in Sources */,
+				C4E4FB6B1634A584001B540E /* evenCalculator.m in Sources */,
+				C4E4FB721634AD11001B540E /* chord.m in Sources */,
+				C40265BF16389CAF006C44AA /* toneGenerator.m in Sources */,
+				C41FD2A516433EF40071A59C /* interval.m in Sources */,
+				C41FD2A916433F470071A59C /* intervalCalculator.m in Sources */,
+				B907C98C167436D90080BA42 /* timerBox.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C4E4FB4C1634A55A001B540E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4E4FB4D1634A55A001B540E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C4E4FB5E1634A55A001B540E /* GLWViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4E4FB5F1634A55A001B540E /* en */,
+			);
+			name = GLWViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4E4FB611634A55A001B540E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C4E4FB621634A55A001B540E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4E4FB641634A55A001B540E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "circleOfFifths/Modulatron-Prefix.pch";
+				INFOPLIST_FILE = "circleOfFifths/Modulatron-Info.plist";
+				PRODUCT_NAME = Modulatron;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C4E4FB651634A55A001B540E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "circleOfFifths/Modulatron-Prefix.pch";
+				INFOPLIST_FILE = "circleOfFifths/Modulatron-Info.plist";
+				PRODUCT_NAME = Modulatron;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4E4FB391634A55A001B540E /* Build configuration list for PBXProject "Modulatron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E4FB611634A55A001B540E /* Debug */,
+				C4E4FB621634A55A001B540E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4E4FB631634A55A001B540E /* Build configuration list for PBXNativeTarget "Modulatron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E4FB641634A55A001B540E /* Debug */,
+				C4E4FB651634A55A001B540E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4E4FB361634A55A001B540E /* Project object */;
+}
